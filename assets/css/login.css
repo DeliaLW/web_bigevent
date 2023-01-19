@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../images/login_bg.jpg') no-repeat center;
+  background-size: 100% 100%;
+}
+.login-reg-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+}
+.login-reg-box .layui-form {
+  padding: 0 30px;
+}
+.login-reg-box .layui-form .layui-form-item {
+  position: relative;
+}
+.login-reg-box .links {
+  display: flex;
+  justify-content: end;
+}
+.login-reg-box .links a {
+  font-size: 12px;
+}
+.login-reg-box i {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.login-reg-box .layui-input {
+  padding-left: 32px;
+}
+.login-reg-box .title-box {
+  height: 60px;
+  background: url(../images/login_title.png) no-repeat center;
+}
+.login-reg-box .reg-box {
+  display: none;
+}
