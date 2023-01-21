@@ -10,7 +10,7 @@ function getUserInfo() {
         success: function (response) {
             if (response.status == 1) return console.log('获取用户消息失败！'+response.message);
             // TODO渲染用户头像、名称
-            console.log(response.data);
+            // console.log(response.data);
             renderAvatar(response.data)
         },
         // // 无论请求失败or成功都会执行这个回调函数
